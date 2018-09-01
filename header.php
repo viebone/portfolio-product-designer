@@ -20,6 +20,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
+<link rel='stylesheet' id='twentyseventeen-style-css'  href='http://www.viebone.com/wp-content/themes/portfolio-product-designer/portfolio-product-designer.css?ver=4.9.8' type='text/css' media='all' />
 </head>
 
 <body <?php body_class(); ?>>
@@ -28,7 +29,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+		<?php get_template_part( 'template-parts/header/header', 'image--short' ); ?>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
